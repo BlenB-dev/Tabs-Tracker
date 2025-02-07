@@ -23,6 +23,11 @@ button {
   border: none;
   border-radius: 3px;
 }
+.team-img {
+  width: 500px;
+  border-radius: 100%;
+  margin: 10px;
+}
 #input-del {
   background-color: white;
   color: #5f9341;

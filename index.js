@@ -88,7 +88,7 @@
 // } else {
 //   console.log("your too older of birthday card");
 // }
-
+// -----------------------Card Game-----------------
 // card_el = document.getElementById("card_el");
 // let sum = 0;
 // let hasblackJack = false;
@@ -149,6 +149,8 @@
 //     renderGame();
 //   }
 // }
+
+//--------------shift,push,pop---------------
 // let largeCountries = ["Tuvalu", "india", "usa", "Indonsia", "Monaco"];
 // let res;
 // for (i = 0; i < largeCountries.length; i++) {
@@ -166,7 +168,7 @@
 //   return hands[res];
 // }
 // console.log(randomnumber());
-
+//----------------- rendering apples and orangies--------
 // let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊"];
 // let appleShelf = document.getElementById("apple-shelf");
 // let orangeShelf = document.getElementById("orange-shelf");
@@ -181,6 +183,7 @@
 //   }
 // }
 // Assinging();
+//------------------- Saveing tabs----------
 const ullist = document.getElementById("ul-list");
 const input_btn = document.getElementById("input-btn");
 const input_text = document.getElementById("input-el");
@@ -207,7 +210,7 @@ function renders(Leads) {
     listItems += `
       <li>
     <a href=${Leads[i]} > ${Leads[i]}
-    </a> 
+    </a>
       </li>
       `;
   }
@@ -226,3 +229,15 @@ del_btn.addEventListener("dblclick", function () {
   myLeads = [];
   renders(myLeads);
 });
+//rendering images ------------------------
+// const imgs = ["images/hip1.jpg", "images/hip2.jpg", "images/hip3.jpg"];
+// const img = document.getElementById("container");
+
+// function renderimage() {
+//   let imgsDOM = "";
+//   for (i = 0; i < imgs.length; i++) {
+//     imgsDOM += `<img class="team-img" src=${imgs[i]}></img> `;
+//   }
+//   img.innerHTML = imgsDOM;
+// }
+// renderimage();
